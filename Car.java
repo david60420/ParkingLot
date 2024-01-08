@@ -39,7 +39,6 @@ public class Car {
 	 * @param plateNum is the car plate number
 	 */
 	public void setPlateNum(String plateNum) {
-	// WRITE YOUR CODE HERE!
 		this.plateNum = plateNum; 
 	}
 
@@ -50,7 +49,6 @@ public class Car {
 	 * @param plateNum is the car plate number
 	 */
 	public Car(CarType type, String plateNum) {
-	// WRITE YOUR CODE HERE!
 		this.type = type; 
 		this.plateNum = plateNum; 
 	}
@@ -59,8 +57,6 @@ public class Car {
 	 * Returns a string representation of the car
 	 */
 	public String toString() {
-		// NOTE: The implementation of this method is complete. You do NOT need to
-		// change it for the assignment.
 		return Util.getLabelByCarType(type) + '(' + plateNum + ')';
 	}
 }
