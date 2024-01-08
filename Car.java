@@ -1,6 +1,3 @@
-/**
- * @author Mehrdad Sabetzadeh, University of Ottawa
- */
 public class Car {
 
 	/**
@@ -17,8 +14,7 @@ public class Car {
 	 * @return the type of this car
 	 */
 	public CarType getType() {
-		// WRITE YOUR CODE HERE!
-		return type; // REMOVE THIS STATEMENT AFTER IMPLEMENTING THIS METHOD
+		return type; 
 	}
 
 	/**
@@ -27,7 +23,6 @@ public class Car {
 	 * @param type is the car type
 	 */
 	public void setType(CarType type) {
-		// WRITE YOUR CODE HERE!
 		this.type = type;
 	}
 
@@ -35,8 +30,7 @@ public class Car {
 	 * @return the plate number
 	 */
 	public String getPlateNum() {
-		// WRITE YOUR CODE HERE!
-		return plateNum; // REMOVE THIS STATEMENT AFTER IMPLEMENTING THIS METHOD
+		return plateNum;
 	}
 
 	/**
