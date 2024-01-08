@@ -1,9 +1,5 @@
 import java.util.Random;
 
-/**
- * @author Mehrdad Sabetzadeh, University of Ottawa
- *
- */
 public class Simulator {
 
 	/**
@@ -127,7 +123,6 @@ public class Simulator {
 	/**
 	 * Simulate the parking lot for the number of steps specified by the steps
 	 * instance variable
-	 * NOTE: Make sure your implementation of simulate() uses peek() from the Queue interface.
 	 */
 	public void simulate() {
 
