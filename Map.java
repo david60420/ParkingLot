@@ -6,7 +6,4 @@ public interface Map< K, V> {
     void replace(K key, V value);
     V remove(K key);
 
-
-    /* Make the necessary abstract method definitions */
-
 }
