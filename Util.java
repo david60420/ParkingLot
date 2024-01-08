@@ -1,10 +1,3 @@
-/**
- * This is a utility class to simplify the implementation of A1. You are NOT
- * supposed to change the Util class. You are nevertheless encouraged to study
- * the methods in this class for practice.
- * 
- * @author Mehrdad Sabetzadeh, University of Ottawa
- */
 public class Util {
 
 	public static CarType getCarTypeByLabel(String label) {
