@@ -1,8 +1,3 @@
-/**
- * COPYRIGHT MATERIAL -- DO NOT DISTRIBUTE
- *
- * @author Mehrdad Sabetzadeh 
- */
 public class QueueUtils {
 	public static Queue<String> merge(Queue<String>[] array) {
 		if (array == null || array.length == 0) {
